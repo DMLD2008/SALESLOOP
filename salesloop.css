@@ -118,6 +118,7 @@ nav #wwu-link {
   #navbar {
     padding-left: 10px;
     padding-right: 10px;
+    height: 100px;
   }
 
   #navbar img {
@@ -129,13 +130,13 @@ nav #wwu-link {
   #navbar a {
     text-decoration: none;
     color: #b3b3c2;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
   }
 
   nav {
     flex-wrap: wrap;
-    margin-left: 60px;
+    margin-left: 10vw;
     gap: 11px;
   }
 
@@ -164,20 +165,20 @@ nav #wwu-link {
   }
 
   #hero button {
-    width: 150px;
-    height: 33px;
+    width: 170px;
+    height: 39px;
     padding: 4px 6px 4px 6px;
     border-radius: 10px;
-    font-size: 9px;
+    font-size: 14px;
   }
 
   #hero div:first-of-type div {
-    gap: 26px;
+    gap: 13px;
     margin-top: 40px;
   }
 
   #hero a{
-    font-size: 9px;
+    font-size: 11px;
     
   }
 
