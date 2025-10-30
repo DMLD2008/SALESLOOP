@@ -214,6 +214,62 @@ h1 {
   height: 24px;
 }
 
+#how-we-work {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#how-we-work #content {
+  width: 1240px;
+  height: 460px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+#how-we-work #content > div {
+  width: 454px;
+  height: 120px;
+  background-color: #171717;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#how-we-work h2 {
+  color: white;
+  font-size: 18.8px;
+  font-weight: 600;
+}
+
+#how-we-work #content div > p {
+  color: #b3b3c2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#how-we-work #content div div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#how-we-work #content div .steps {
+  font-size: 10px;
+  font-weight: 500;
+  background-color: #171717;
+  padding: 10px;
+  border: 0.45px solid white;
+  color: white;
+  border-radius: 20px;
+  height: 13px;
+}
+
 @media (max-width: 1200px) {
   #hero div:nth-of-type(2) {
     margin: 99px 100px 50px 400px;
@@ -309,5 +365,10 @@ h1 {
   #about #content {
     flex-direction: column;
     gap: 50px;
+  }
+
+  #how-we-work #content {
+    display: flex;
+    flex-direction: column;
   }
 }
